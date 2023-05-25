@@ -5,3 +5,5 @@ const messageSchema = new Schema({
     createdAt: String,
     createdBy: String
 })
+
+module.exports = model('Message', messageSchema);

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94df2153-84c4-4185-ae67-fcf2be2c15f2" name="Changes" comment="feat: Add ApolloServer">
+    <list default="true" id="94df2153-84c4-4185-ae67-fcf2be2c15f2" name="Changes" comment="feat: Add model">
+      <change afterPath="$PROJECT_DIR$/graphql/resolvers/messages.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql/typeDefs.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/typeDefs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Message.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685022578499</updated>
-      <workItem from="1685022580011" duration="1918000" />
+      <workItem from="1685022580011" duration="2557000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add gitignore">
       <created>1685023305423</created>
@@ -73,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685023879217</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: Add model">
+      <created>1685024706224</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685024706225</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +89,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Add gitignore" />
     <MESSAGE value="feat: Add ApolloServer" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add ApolloServer" />
+    <MESSAGE value="feat: Add model" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Add model" />
   </component>
 </project>
