@@ -33,7 +33,7 @@ async function startServer() {
     });
 }
 
-startServer().catch((err) => {
-    console.error(err);
+startServer().catch((e) => {
+    console.error(e);
     process.exit(1);
 });

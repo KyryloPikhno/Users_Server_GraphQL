@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94df2153-84c4-4185-ae67-fcf2be2c15f2" name="Changes" comment="feat: Add model">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql/typeDefs.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/typeDefs.js" afterDir="false" />
+    <list default="true" id="94df2153-84c4-4185-ae67-fcf2be2c15f2" name="Changes" comment="fix: index">
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685022578499</updated>
-      <workItem from="1685022580011" duration="4456000" />
+      <workItem from="1685022580011" duration="5069000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add gitignore">
       <created>1685023305423</created>
@@ -95,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685026246999</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix: index">
+      <created>1685027344261</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685027344261</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +109,7 @@
     <MESSAGE value="feat: Add gitignore" />
     <MESSAGE value="feat: Add ApolloServer" />
     <MESSAGE value="feat: Add model" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Add model" />
+    <MESSAGE value="fix: index" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: index" />
   </component>
 </project>
