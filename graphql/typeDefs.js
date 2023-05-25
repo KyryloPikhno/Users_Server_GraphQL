@@ -17,6 +17,6 @@ type Query {
 }
 
 type Mutation {
-    createMessage(messageInput: MessageInput): Massage!
+    createMessage(messageInput: MessageInput): Message!
 }
 `
