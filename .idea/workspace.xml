@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94df2153-84c4-4185-ae67-fcf2be2c15f2" name="Changes" comment="feat: Add model">
-      <change afterPath="$PROJECT_DIR$/graphql/resolvers/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphql/resolvers/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/resolvers/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/resolvers/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphql/typeDefs.js" beforeDir="false" afterPath="$PROJECT_DIR$/graphql/typeDefs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685022578499</updated>
-      <workItem from="1685022580011" duration="2557000" />
+      <workItem from="1685022580011" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Add gitignore">
       <created>1685023305423</created>
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685024706225</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Add model">
+      <created>1685025425172</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685025425172</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

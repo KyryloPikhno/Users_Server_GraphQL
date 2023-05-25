@@ -3,13 +3,15 @@ const Message = require('../../models/Message');
 module.exports = {
     Mutation: {
         async createMessage(_, {messageInput: {text, username}}) {
-            const newMessage = await Message.create({
+            const newMessage = new Message({
                 text,
                 createdBy: username,
                 createdAt: new Date().toISOString()
             });
 
-            return {id: newMessage.id, ...newMessage._doc};
+            const res = await newMessage.save();
+            console.log(res);
+            return {id: res.id, ...res._doc};
         }
     },
 

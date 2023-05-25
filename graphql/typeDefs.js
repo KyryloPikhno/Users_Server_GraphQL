@@ -7,15 +7,16 @@ type Message {
     createdBy: String
 }
 
-input MassageInput {
+input MessageInput {
     text: String
     username: String
+}
 
 type Query {
     message(id: ID!): Message
 }
 
 type Mutation {
-    createMessage(messageInput: MassageInput): MassageInput!
+    createMessage(messageInput: MessageInput): Massage!
 }
-`;
+`
